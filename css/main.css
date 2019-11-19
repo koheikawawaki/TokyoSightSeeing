@@ -30,7 +30,7 @@ h2 {
   position: relative;
   padding: 0.6em;
   background: -webkit-repeating-linear-gradient(-45deg, #e6e6fa, #e6e6fa 4px,#e6e6fa 3px, #e6e6fa 8px);
-  background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+  background: repeating-linear-gradient(-45deg, #e6e6fa, #e6e6fa 4px,#e6e6fa 3px, #e6e6fa 8px);
   border-radius: 7px;
 }
 
