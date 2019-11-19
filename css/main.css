@@ -18,23 +18,32 @@ h1 {
 h1:after {
   position: absolute;
   content: '';
-  top: 100%;
+  top: 90%;
   left: 30px;
   border: 15px solid transparent;
-  border-top: 15px solid #ffebbe;
+  border-top: 15px solid #e6e6fa;
   width: 0;
   height: 0;
 }
 
 h2 {
-    margin-top: 40px;
-    padding: 0.4em 0.5em; /*文字の上下 左右の余白*/
-    color: #494949; /*文字色*/
-    background: #f4f4f4; /*背景色*/
-    border-left: solid 5px #7db4e6; /*左線*/
-    border-bottom: solid 3px #d7d7d7; /*下線*/
+  position: relative;
+  padding: 0.6em;
+  background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+  background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+  border-radius: 7px;
 }
 
+h2:after {
+  position: absolute;
+  content: '';
+  top: 90%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #fffacd;
+  width: 0;
+  height: 0;
+}
 section > p {
     padding: 10px;
 }
